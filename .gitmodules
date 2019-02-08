@@ -1,0 +1,3 @@
+[submodule "GoSublime"]
+	path = GoSublime
+	url = https://github.com/DisposaBoy/GoSublime.git
