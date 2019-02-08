@@ -1,0 +1,4 @@
+{
+    "goroot": "$GOROOT",
+    "gopath": "$GOPATH"
+}

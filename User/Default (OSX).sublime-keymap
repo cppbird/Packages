@@ -1,0 +1,14 @@
+[
+	{ "keys": ["super+h"], "command": "godef" },
+	{ "keys": ["super+j"], "command": "jump_forward"},
+    { "keys": ["super+k"], "command": "jump_back"},
+
+    { "keys": ["super+alt+j"], "command": "prev_view" },
+	{ "keys": ["super+alt+l"], "command": "next_view" },
+
+    { "keys": ["super+j"], "command": "move", "args": {"by": "characters", "forward": false} },
+	{ "keys": ["super+l"], "command": "move", "args": {"by": "characters", "forward": true} },
+	{ "keys": ["super+i"], "command": "move", "args": {"by": "lines", "forward": false} },
+	{ "keys": ["super+k"], "command": "move", "args": {"by": "lines", "forward": true} }
+
+]

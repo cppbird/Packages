@@ -1,0 +1,18 @@
+{
+	"bootstrapped": true,
+	"channels":
+	[
+		"/Users/jdq/channel_v3.json"
+	],
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"DocBlockr",
+		"Godef",
+		"Package Control",
+		"Pretty JSON",
+		"Protobuf Syntax Hightlighting"
+	]
+}
