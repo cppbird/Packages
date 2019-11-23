@@ -1,4 +1,4 @@
 {
-    "goroot": "$GOROOT",
-    "gopath": "$GOPATH"
+    "goroot": "/usr/local/Cellar/go/1.12.5/libexec",
+    "gopath": "/Users/jdq/go"
 }

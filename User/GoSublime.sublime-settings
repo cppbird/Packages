@@ -6,9 +6,12 @@
 	// the corresponding environment(PATH) variable, if it exists.
 	"env": {
 		"GOPATH": "$HOME/go",
+		"GOROOT": "/usr/local/Cellar/go/1.12.5/libexec",
+		"GOBIN": "/Users/jdq/go/bin",
 	},
 
-  	"fmt_cmd": ["goimports"],
+  	"fmt_cmd": ["gofmt"],
+  	"fmt_enabled": true,
 
 	// enable comp-lint, this will effectively disable the live linter
 	"comp_lint_enabled": true,
@@ -33,5 +36,10 @@
 	    // naturally, you can also bind this command `gs_comp_lint`
 	    // to a key binding if you want
 	    {"cmd": "gs_comp_lint"}
-	]
+	],
+	"autocomplete_snippets": true,
+    "autocomplete_tests": true,
+    "autocomplete_builtins": true,
+    "autocomplete_closures": true,
+    "autocomplete_suggest_imports": true,
 }

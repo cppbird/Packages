@@ -9,6 +9,6 @@
     { "keys": ["super+j"], "command": "move", "args": {"by": "characters", "forward": false} },
 	{ "keys": ["super+l"], "command": "move", "args": {"by": "characters", "forward": true} },
 	{ "keys": ["super+i"], "command": "move", "args": {"by": "lines", "forward": false} },
-	{ "keys": ["super+k"], "command": "move", "args": {"by": "lines", "forward": true} }
-
+	{ "keys": ["super+k"], "command": "move", "args": {"by": "lines", "forward": true} },
+	{ "keys": ["super+d"], "command": "goto_definition" }
 ]

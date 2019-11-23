@@ -11,6 +11,7 @@
 	[
 		"DocBlockr",
 		"Godef",
+		"GoGuru",
 		"Package Control",
 		"Pretty JSON",
 		"Protobuf Syntax Hightlighting"

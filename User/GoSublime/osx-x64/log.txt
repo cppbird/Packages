@@ -29,3 +29,77 @@ Gocode pkg: "go-common/app/interface/bbq/app-bbq/server/http"
 Gocode pkg: "go-common/app/service/bbq/video/service"
 Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.10.3/libexec/pkg/darwin_amd64:/Users/jdq/go/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.10.3/libexec", GOPATH:"/Users/jdq/go", InstallSuffix:""}
 Gocode pkg: "."
+Gocode pkg: "."
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.10.3/libexec/pkg/darwin_amd64:/Users/jdq/go/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.10.3/libexec", GOPATH:"/Users/jdq/go", InstallSuffix:""}
+Gocode pkg: "."
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.10.3/libexec/pkg/darwin_amd64:/Users/jdq/go/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.10.3/libexec", GOPATH:"/Users/jdq/go", InstallSuffix:""}
+Gocode pkg: "."
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.10.3/libexec/pkg/darwin_amd64:/Users/jdq/go/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.10.3/libexec", GOPATH:"/Users/jdq/go", InstallSuffix:""}
+Gocode pkg: "crypto/md5"
+Gocode pkg: "."
+Gocode pkg: "encoding/binary"
+Gocode pkg: "."
+Gocode pkg: "crypto/md5"
+Gocode pkg: "."
+Gocode pkg: "crypto/md5"
+Gocode pkg: "."
+Gocode pkg: "encoding/hex"
+Gocode pkg: "."
+Gocode pkg: "encoding/hex"
+Gocode pkg: "."
+Gocode pkg: "encoding/hex"
+Gocode pkg: "."
+Gocode pkg: "."
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.10.3/libexec/pkg/darwin_amd64:/Users/jdq/go/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.10.3/libexec", GOPATH:"/Users/jdq/go", InstallSuffix:""}
+Gocode pkg: "go-common/vendor/github.com/Dai0522/go-hash/bloomfilter"
+Gocode pkg: "go-common/vendor/github.com/Dai0522/go-hash/murmur3"
+Gocode pkg: "."
+Gocode pkg: "."
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.10.3/libexec/pkg/darwin_amd64:/Users/jdq/go/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.10.3/libexec", GOPATH:"/Users/jdq/go", InstallSuffix:""}
+Gocode pkg: "."
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.10.3/libexec/pkg/darwin_amd64:/Users/jdq/go/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.10.3/libexec", GOPATH:"/Users/jdq/go", InstallSuffix:""}
+Gocode pkg: "."
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.10.3/libexec/pkg/darwin_amd64:/Users/jdq/go/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.10.3/libexec", GOPATH:"/Users/jdq/go", InstallSuffix:""}
+margo: nsf/gocode is not enabled in go1.11. See https://margo.kuroku.io/b/migrate/?_r=gs
+margo: nsf/gocode is not enabled in go1.11. See https://margo.kuroku.io/b/migrate/?_r=gs
+margo: nsf/gocode is not enabled in go1.11. See https://margo.kuroku.io/b/migrate/?_r=gs
+margo: nsf/gocode is not enabled in go1.11. See https://margo.kuroku.io/b/migrate/?_r=gs
+margo: nsf/gocode is not enabled in go1.11. See https://margo.kuroku.io/b/migrate/?_r=gs
+
+** 2019-07-25 21:31:44.272273 **:
+agent#007: GoSublime: Traceback (most recent call last):
+  File "/Users/jdq/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo_agent.py", line 287, in _handle_recv
+    self._handle_recv_ipc(v)
+  File "/Users/jdq/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo_agent.py", line 272, in _handle_recv_ipc
+    self._notify_ready()
+  File "/Users/jdq/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo_agent.py", line 269, in _notify_ready
+    self.mg.agent_ready(self)
+  File "/Users/jdq/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo.py", line 356, in agent_ready
+    self.on_activated(gs.active_view())
+  File "/Users/jdq/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo.py", line 459, in on_activated
+    self.queue(view=view, actions=[actions.ViewActivated])
+  File "/Users/jdq/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo.py", line 371, in queue
+    self.agent.queue(actions=actions, view=view, delay=delay)
+  File "/Users/jdq/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo_agent.py", line 205, in queue
+    p = (act, view.id())
+AttributeError: 'NoneType' object has no attribute 'id'
+--------------------------------
+
+** 2019-11-21 08:45:39.162821 **:
+agent#007: GoSublime: Traceback (most recent call last):
+  File "/Users/jdq/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo_agent.py", line 287, in _handle_recv
+    self._handle_recv_ipc(v)
+  File "/Users/jdq/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo_agent.py", line 272, in _handle_recv_ipc
+    self._notify_ready()
+  File "/Users/jdq/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo_agent.py", line 269, in _notify_ready
+    self.mg.agent_ready(self)
+  File "/Users/jdq/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo.py", line 354, in agent_ready
+    self.on_activated(gs.active_view())
+  File "/Users/jdq/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo.py", line 457, in on_activated
+    self.queue(view=view, actions=[actions.ViewActivated])
+  File "/Users/jdq/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo.py", line 369, in queue
+    self.agent.queue(actions=actions, view=view, delay=delay)
+  File "/Users/jdq/Library/Application Support/Sublime Text 3/Packages/GoSublime/gosubl/margo_agent.py", line 205, in queue
+    p = (act, view.id())
+AttributeError: 'NoneType' object has no attribute 'id'
+--------------------------------
